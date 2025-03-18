@@ -5,8 +5,8 @@ export default function Footer() {
     const listNavbar = [
         {name: 'Home', link:'#'},
         {name: 'Skills', link:'#skills'},
-        {name: 'Experience', link:'#experience'},
-        {name: 'Language', link:'#language'},
+        {name: 'Education', link:'#education'},
+        {name: 'Services', link:'#services'},
         {name: 'Projects', link:'#projects'},
         
     ];
