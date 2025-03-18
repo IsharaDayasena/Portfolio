@@ -6,6 +6,8 @@ import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Education from './components/education/Education'
+import Services from './components/services.jsx/Services'
 
 
 function App() {
@@ -21,6 +23,8 @@ useEffect(() => {
     <Hero/>
     <Skills/>
     <Projects/>
+    <Services/>
+    <Education/>
     <Contact/>
     <Footer/>
    </main>

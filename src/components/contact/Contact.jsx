@@ -35,49 +35,7 @@ export default function Contact() {
           Contact Me
         </h2>
 
-        <div className="flex  justify-center mt-8 space-x-6">
-          <div className="flex flex-row space-x-2">
-            <p className=" text-white text-lg">Github Profile :</p>
-            <a
-              href="https://github.com/IsharaDayasena"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-white text-2xl hover:text-gray-400"
-            >
-              <FaGithub />
-            </a>
-          </div>
 
-          <div className="flex flex-row space-x-2">
-          <p className=" text-white text-lg">Linkedin Profile :</p>
-          <a
-            href="https://www.linkedin.com/in/ishara-dayasena-201314264/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white text-2xl hover:text-gray-400"
-          >
-            <FaLinkedin />
-          </a>
-          </div>
-          <div className="flex flex-row space-x-2">
-            <p className=" text-white text-lg">Email :</p>
-          <a
-            href="mailto:isharahansani235@gmail.com"
-            className="text-white text-2xl hover:text-gray-400"
-          >
-            <FaEnvelope />
-          </a>
-          </div>
-          <div className="flex flex-row space-x-2">
-            <p className=" text-white text-lg"> Contact :</p>
-          <a
-            href="tel:0776881503"
-            className="text-white hover:text-gray-400"
-          >
-           +94 776881503
-          </a>
-          </div>
-        </div>
 
         {/* form */}
         <form onSubmit={handleSubmit} className="space-y-8">
@@ -125,6 +83,41 @@ export default function Contact() {
             <p className="text-center text-green-400 mt-4">{successMessage}</p>
           )}
         </form>
+        <div className="flex  justify-center mt-8 space-x-6">
+          <div className="flex flex-row space-x-2">
+            
+            <a
+              href="https://github.com/IsharaDayasena"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-2xl hover:text-gray-400"
+            >
+              <FaGithub />
+            </a>
+          </div>
+
+          <div className="flex flex-row space-x-2">
+          
+          <a
+            href="https://www.linkedin.com/in/ishara-dayasena-201314264/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-2xl hover:text-gray-400"
+          >
+            <FaLinkedin />
+          </a>
+          </div>
+          <div className="flex flex-row space-x-2">
+           
+          <a
+            href="mailto:isharahansani235@gmail.com"
+            className="text-white text-2xl hover:text-gray-400"
+          >
+            <FaEnvelope />
+          </a>
+          </div>
+          
+        </div>
       </div>
     </section>
   );
