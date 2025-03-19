@@ -162,7 +162,7 @@ export default function Skills() {
               I am skilled in programming languages like C, Java, and JavaScript,
               with experience in databases (MySQL, MSSQL, MongoDB) and version control
               using GIT. I specialize in web development with React, NodeJS, NextJS, and
-              PHP, and am proficient in UI/UX design tools like Figma and Photoshop.
+              PHP, and am proficient in UI/UX design tools like Figma and Canva.
               Additionally, I have experience with API tools like Postman, Firebase, and
               project management tools such as Trello.
               <br />
