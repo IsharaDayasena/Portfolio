@@ -31,8 +31,9 @@ export default function Hero() {
 
   return (
     <div className="relative overflow-hidden min-h-[550px] sm:min-h-[660px] flex flex-col">
-      <div className="md:h-[600px] h-[460px] md:w-[640px] w-[880px] bg-gradient-to-r from-[#0d182e] via-blue-900 to-blue-500 absolute opacity-40 rounded-full transform rotate-90 top-5 blur-lg "></div>
 
+      <div className="md:h-[600px] h-[460px] md:w-[640px] w-[880px] bg-gradient-to-r from-[#0d182e] via-blue-900 to-blue-500 absolute opacity-40 rounded-full transform rotate-90 top-5 blur-lg "></div>
+    
       <Navbar />
 
       <section
@@ -96,15 +97,19 @@ export default function Hero() {
             </div>
           </div>
 
+
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+          
+          <img
               src={img}
               alt="hero"
-              className="object-cover object-center rounded-full w-150 h-150 ml-20 mt-10 bg-gradient-to-r from-yellow-400 via-orange-400 to-orange-600 shadow-xl shadow-black"
+              className="object-cover object-center rounded-full w-150 h-150 ml-20 mt-10  bg-gradient-to-r from-yellow-300 via-orange-400 to-orange-600 shadow-xl shadow-black"
             />
+         
           </div>
         </div>
       </section>
+
     </div>
   );
 }
